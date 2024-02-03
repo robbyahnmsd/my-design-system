@@ -6,7 +6,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({ label, ...rest }) => {
+export const MyButton: React.FC<ButtonProps> = ({ label, ...rest }) => {
   return (
     <Container type='button' {...rest}>
      {label}
