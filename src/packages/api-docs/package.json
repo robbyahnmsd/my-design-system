@@ -1,0 +1,43 @@
+{
+  "name": "@govuk-react/api-docs",
+  "version": "0.10.6",
+  "dependencies": {
+    "@babel/node": "7.22.19",
+    "@babel/runtime": "7.23.1",
+    "chalk": "^4.1.1",
+    "commander": "^11.0.0",
+    "glob": "^7.1.2",
+    "glob-promise": "^6.0.5",
+    "govuk-react": "^0.10.6",
+    "lodash": "^4.17.5",
+    "react": "^18.2.0",
+    "react-docgen-typescript": "^2.1.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.0",
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.5"
+  },
+  "bin": {
+    "doc-component": "bin/doc-component.js"
+  },
+  "scripts": {
+    "start": "babel-node src",
+    "version": "yarn version"
+  },
+  "main": "dist/govuk-react-api-docs.cjs.js",
+  "module": "dist/govuk-react-api-docs.esm.js",
+  "source": "src/index.tsx",
+  "author": "Alasdair McLeay",
+  "license": "MIT",
+  "homepage": "https://github.com/govuk-react/govuk-react#readme",
+  "description": "govuk-react: A port of the govuk-frontend components for React using styled-components.",
+  "publishConfig": {
+    "access": "public"
+  }
+}
