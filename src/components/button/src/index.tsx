@@ -25,27 +25,27 @@ const HALF_SHADOW = RAW_SHADOW / 2;
 const BASE_PAD = RAW_SPACING_2 - RAW_BORDER_WIDTH;
 
 /* tailwind button */
-// const StyledButton = styled.button`
-// ${tw`rounded-md bg-blue-500 text-white px-4 py-2`}
-// /* Add any additional CSS styling specific to your button */
-// `;
+const StyledButton1 = styled.button`
+${tw`rounded-md bg-blue-500 text-white px-4 py-2`}
+/* Add any additional CSS styling specific to your button */
+`;
 
 /* Styled Button change order  */
-// const StyledButton = styled('button').withConfig({ displayName: 'CustomButton' })`
-//   ${tw`rounded-md bg-blue-800 text-white px-4 py-2`}  
-//   padding: 10px 20px;
-//   border: none;
-//   border-radius: 5px;  
-// `
+const StyledButton2 = styled('button').withConfig({ displayName: 'CustomButton' })`
+  ${tw`rounded-md bg-blue-800 text-white px-4 py-2`}  
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;  
+`;
 
 // Styled component way
-// const StyledButton = styled('button').withConfig({ displayName: 'CustomButton' })`
-//   background-color: blue;
-//   color: white;
-//   padding: 10px 20px;
-//   border: none;
-//   border-radius: 5px;
-// `;
+const StyledButton3 = styled('button').withConfig({ displayName: 'CustomButton' })`
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+`;
 
 const StyledButton = styled('button').withConfig<StyledButtonOwnProps>({
   shouldForwardProp: (prop) =>
