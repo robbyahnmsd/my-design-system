@@ -1,0 +1,7 @@
+ 
+ export const BASE_COLOUR = {
+    black: '#000000FF',
+    white: '#FFFFFFFF',
+    background: '#FCFCFCFF'
+ }
+ 

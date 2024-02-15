@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { MyButton } from '../components/MyButton';
+// import { MSD_COLOUR } from '../components/msd-colour';
+
 import './header.css';
 
 type User = {
@@ -37,12 +39,13 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
         <h1>Acme</h1>
       </div>
       <div>
+        {/* {MSD_COLOUR.black} */}
         {user ? (
           <>
             <span className="welcome">
               Welcome, <b>{user.name}</b>!
             </span>
-            <MyButton size="small" onClick={onLogout} label="Log out" />
+            <MyButton size="small" onClick={onLogout} label="Log out" />            
           </>
         ) : (
           <>

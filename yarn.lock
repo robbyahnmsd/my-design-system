@@ -3096,6 +3096,13 @@
   dependencies:
     "@storybook/node-logger" "^7.0.12"
 
+"@storybook/addon-themes@7.6.10":
+  version "7.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-themes/-/addon-themes-7.6.10.tgz#aca88a2089407c78752e7751061b064c792010e1"
+  integrity sha512-fsWr9FOVMJoD9bsXf1B7uHRajWx2Lruhi3VYGt/AZG6a/g38ja31+lWynpESOGxv4hOCyoNIAdC5JZFbMg7mOA==
+  dependencies:
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-toolbars@7.6.10":
   version "7.6.10"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-7.6.10.tgz#4d841e87acca5455a8339a29c1062612ccb07df6"

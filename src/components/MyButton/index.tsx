@@ -1,6 +1,7 @@
 //./src/components/Button/index.tsx
 import React, { ButtonHTMLAttributes } from 'react';
 import { Container } from './styles';
+// import { MSD_COLOUR } from 'msd-colour';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;

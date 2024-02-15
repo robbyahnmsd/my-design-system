@@ -1,6 +1,7 @@
 export * from './focus';
 export * from './spacing';
 export * from './typography';
+export * from './msd-colours';
 
 // Tracks https://github.com/alphagov/govuk-frontend/blob/main/src/govuk/settings/_measurements.scss
 export const BORDER_WIDTH = '5px';

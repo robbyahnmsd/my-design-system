@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { Header } from './Header';
+import { MSD_COLOUR } from '../components/msd-colour';
+
 import './page.css';
 
 type User = {
@@ -12,6 +14,7 @@ export const Page: React.FC = () => {
 
   return (
     <article>
+      msd colour {MSD_COLOUR.base.black}
       <Header
         user={user}
         onLogin={() => setUser({ name: 'Jane Doe' })}
